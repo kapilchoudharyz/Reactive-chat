@@ -1,0 +1,153 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Kapil Kumar} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91-7023988389\\ Alwar, Rajasthan}
+\address{\href{mailto:kapilchoudhary7219@gmail.com}{kapilchoudhary7219@gmail.com} \\ \href{https://linkedin.com/in/kapil-kumar-3b4647231/}{linkedin.com/in/kapil-kumar-3b4647231/} \\ \href{https://kapil-kumar.netlify.app/}{https://kapil-kumar.netlify.app/}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Front-end developer seeking full-time developer roles.}
+
+
+\end{rSection}
+%---------------------------------------------------------------------------------------
+
+
+
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+\begin{rSection}{Education}
+
+
+
+\begin{rSection}
+\setlength{\arrayrulewidth}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{1.3cm}|  }
+
+\hline
+Degree& Year of Passing &Collage/School &University/Board &Percentage \\
+\hline
+
+10th & 2016   & C.R. international school, bawal, Rewari &CBSE & 7.6 CGPA \\
+12th & 2018 &St. paul school, sikar, Rajasthan &Board of secondary education, Rajasthan &66.20 \\
+
+Bachlor of Science &2023 & St. wilfred pg collage, Jaipur    &Rajasthan university &60 \\
+
+\hline
+\end{tabular}
+
+\end{rSection}
+
+
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Courses}
+
+
+{\bf Front end web developer course}   \hfill {June 2022 - October 2023}
+
+
+
+
+\end{rSection}
+
+% TECHINICAL STRENGTHS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills & React.js, Redux-toolkit, React-router,Tailwind CSS, JavaScript, git, CSS, HTML
+\\
+Tools & VS code, Webstorm, Github, Firebase\\
+
+\end{tabular}\\
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Mapty App.} {Build an application where you can track where have you been for workout on the map with multiple information about the workout. Used Leaflet which is a leading mobile friendly interactive JavaScript library for mobile-friendly interactive maps for showing workouts on the map. \href{https://workoutplace-tracker.netlify.app/}{(Try it here)}}
+\item \textbf{Trip tracker App.} {Single page application where you can track your trips which you have been to on the map. Users can add places where they have been to and what they went for. Users can check which countries or cities they have gone to. Used react-router library for routing. \href{https://track-your-trip.netlify.app/}{(Try it here)}}
+\item \textbf{Rate Any Movie.} {An application where you can rate the movie you watched. Used an public API to fetch data about movies. You can see average rating you gave to movies and your average watchtime. }
+\item \textbf{Quiz App.} {Build a quiz app for testing knowledge about the React framework.}
+\item \textbf{Bankist App.} {Build a mock bank website where users can check transaction history, sort transaction history, transfer or receive money and ask from the bank.}
+\item \textbf{Bankist landing page.} {Build a landing page with all the information about the bank. Used intersection observer API for subtle animations. \href{https://bankk-app.netlify.app/}{(Try it here)}}
+\item \textbf{To do app.} {Build a to do app. You can sort items or works based on diffrent things.  }
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular Activities}
+\begin{itemize}
+    \item 	Actively write about my journey via tweets. (\href{https://twitter.com/Kapilchoudharyz}{Twitter)}
+
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Personal Informations.}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Full Name & Kapil Kumar
+\\
+Date of Birth & july 10, 2002\\
+Father's Name & Jai Singh\\
+Gender & Male\\
+Marital Status & Unmarried\\
+Nationality & Indian\\
+Languages & English, Hindi\\
+Address & Village Nangal siya, Mundawar, district Alwar, Rajasthan
+\end{tabular}\\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Hobbies.}
+
+\begin{itemize}
+    \item  Taking new challenges.
+    \item  Reading newspaper.
+    \item Connecting with people on social media.
+
+\end{itemize}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Decleration.}
+
+{I hereby declare that all above statements made by me are true and complete to the best of my knowledge.}\\
+\\
+(Kapil Kumar)
+
+
+
+\end{rSection}
+\end{document}
